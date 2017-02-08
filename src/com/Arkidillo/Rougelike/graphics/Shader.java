@@ -17,6 +17,8 @@ public class Shader {
 
 	public static final int VERTEX_ATTRIB = 0;
 	public static final int TCOORD_ATTRIB = 1;
+	
+	private boolean enabled = false;
 
 	public static Shader BG;
 
@@ -43,30 +45,37 @@ public class Shader {
 	}
 	
 	public void setUniform1i(String name, int value){
+		if(!enabled) enable();
 		glUniform1i(getUniform(name), value);
 	}
 	
 	public void setUniform1f(String name, float value){
+		if(!enabled) enable();
 		glUniform1f(getUniform(name), value);
 	}
 	
 	public void setUniform2f(String name, float x, float y){
+		if(!enabled) enable();
 		glUniform2f(getUniform(name), x, y);
 	}
 	
 	public void setUniform3f(String name, Vector3f vector){
+		if(!enabled) enable();
 		glUniform3f(getUniform(name), vector.x, vector.y, vector.z);
 	}
 	
 	public void setUniformMat4f(String name, Matrix4f matrix){
+		if(!enabled) enable();
 		glUniformMatrix4fv(getUniform(name), false, matrix.toFloatBuffer());
 	}
 	
 	public void enable(){
+		enabled = true;
 		glUseProgram(ID);
 	}
 	
 	public void disable(){
+		enabled = false;
 		glUseProgram(0);
 	}
 

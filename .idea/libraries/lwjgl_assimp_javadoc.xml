@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="lwjgl-assimp-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-assimp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-glfw.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-openal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-opengl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-stb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-assimp-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-glfw-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-openal-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-opengl-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-stb-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-assimp-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-glfw-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-openal-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-opengl-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/lwjgl-stb-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

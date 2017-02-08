@@ -21,15 +21,15 @@ public class ShaderUtils {
 		int fragID = glCreateShader(GL_FRAGMENT_SHADER);
 		glShaderSource(vertID, vert);
 		glShaderSource(fragID, frag);
-		glCompileShader(vertID);
-		glCompileShader(fragID);
 		
+		glCompileShader(vertID);
 		if(glGetShaderi(vertID, GL_COMPILE_STATUS) == GL_FALSE){
 			System.err.println("Failed to compile vertex shader");
 			System.err.println(glGetShaderInfoLog(vertID));
 			return -1;
 		}
 		
+		glCompileShader(fragID);
 		if(glGetShaderi(fragID, GL_COMPILE_STATUS) == GL_FALSE){
 			System.err.println("Failed to compile fragment shader");
 			System.err.println(glGetShaderInfoLog(fragID));
