@@ -47,7 +47,7 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-assimp-javadoc.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-assimp-javadoc.jar!/" />
@@ -56,7 +56,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-assimp-natives-linux.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-assimp-natives-linux.jar!/" />
@@ -65,7 +65,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-assimp-natives-macos.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-assimp-natives-macos.jar!/" />
@@ -74,7 +74,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-assimp-natives-windows.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-assimp-natives-windows.jar!/" />
@@ -83,7 +83,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-assimp-sources.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-assimp-sources.jar!/" />
@@ -92,7 +92,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-assimp.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-assimp.jar!/" />
@@ -101,7 +101,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-glfw-javadoc.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw-javadoc.jar!/" />
@@ -110,7 +110,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-glfw-natives-linux.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw-natives-linux.jar!/" />
@@ -119,16 +119,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="lwjgl-glfw-natives-macos.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw-natives-macos.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-glfw-natives-windows.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw-natives-windows.jar!/" />
@@ -137,7 +128,16 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
+      <library name="lwjgl-glfw-natives-macos.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw-natives-macos.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-glfw-sources.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw-sources.jar!/" />
@@ -146,7 +146,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-glfw.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-glfw.jar!/" />
@@ -155,7 +155,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-natives-linux.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-natives-linux.jar!/" />
@@ -164,7 +164,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-natives-macos.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-natives-macos.jar!/" />
@@ -173,7 +173,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-natives-windows.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-natives-windows.jar!/" />
@@ -182,7 +182,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-openal-javadoc.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-openal-javadoc.jar!/" />
@@ -191,7 +191,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-openal-natives-linux.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-openal-natives-linux.jar!/" />
@@ -200,7 +200,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-openal-natives-macos.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-openal-natives-macos.jar!/" />
@@ -209,7 +209,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-openal-natives-windows.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-openal-natives-windows.jar!/" />
@@ -218,7 +218,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-openal-sources.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-openal-sources.jar!/" />
@@ -227,7 +227,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-openal.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-openal.jar!/" />
@@ -236,7 +236,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-opengl-javadoc.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-opengl-javadoc.jar!/" />
@@ -245,7 +245,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-opengl-natives-linux.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-opengl-natives-linux.jar!/" />
@@ -254,7 +254,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-opengl-natives-macos.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-opengl-natives-macos.jar!/" />
@@ -263,7 +263,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-opengl-natives-windows.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-opengl-natives-windows.jar!/" />
@@ -272,7 +272,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-opengl-sources.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-opengl-sources.jar!/" />
@@ -281,7 +281,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-opengl.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-opengl.jar!/" />
@@ -290,7 +290,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-stb-javadoc.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-stb-javadoc.jar!/" />
@@ -299,7 +299,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-stb-natives-linux.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-stb-natives-linux.jar!/" />
@@ -308,7 +308,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-stb-natives-macos.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-stb-natives-macos.jar!/" />
@@ -317,7 +317,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-stb-natives-windows.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-stb-natives-windows.jar!/" />
@@ -326,7 +326,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-stb-sources.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-stb-sources.jar!/" />
@@ -335,7 +335,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl-stb.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl-stb.jar!/" />
@@ -344,7 +344,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="lwjgl.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Library/lwjgl.jar!/" />
@@ -353,6 +353,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="lwjgl-assimp-javadoc" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-assimp-javadoc" level="project" />
   </component>
 </module>
